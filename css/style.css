@@ -1,0 +1,701 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.6;
+  font-size: 16px !important;
+  color: #939393 !important;
+}
+.stickyHeader {
+  position: fixed;
+  top: 0;
+  background: #ffffff;
+  transition: 0.3s;
+  z-index: 1;
+  height: 4.5rem;
+  margin-top: 0;
+  padding-top: 0;
+  box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+  z-index: 999 !important;
+}
+.heroSection,
+.coheroSec1,
+.coHeroSec2,
+.coHeroSec3,
+.coHeroSec4,
+.coHeroSec5,
+.coHeroSec6,
+.coHeroSec7,
+.coHeroSec8,
+.coHeroSec9,
+.coheroSec10 {
+  width: 90%;
+  margin: auto;
+}
+
+.dropdown-menu,
+.dropdown {
+  border: none !important;
+  margin-top: 0px;
+}
+.firstdropdown,
+.dropdown-menu {
+  box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  transition: 0.2s 0s;
+}
+.firstdropdown li {
+  position: relative;
+  padding: 0 !important;
+  margin: 0;
+}
+.firstdropdown li :hover {
+  background: #ffffff !important;
+  color: #407bff !important;
+}
+.firstdropdown li a {
+  padding: 5px 20px;
+  display: block;
+  color: #000 !important;
+}
+.dropdown-menu .submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  margin-top: -2rem;
+}
+.firstdropdown {
+  display: none;
+}
+.submenu :hover {
+  position: relative !important;
+  z-index: 999 !important;
+}
+
+.nav-item.dropdown:hover .firstdropdown {
+  display: block;
+}
+.dropdown-menu > li:hover > .submenu {
+  display: block;
+}
+.header li {
+  padding: 0.5rem;
+}
+.headerBtn li {
+  display: inline-block;
+  padding: 0;
+}
+.header li a,
+.headerBtn li a {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.headerBtn li a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 22px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+.registerBtn a {
+  border: 1px solid transparent;
+  color: #ffffff !important;
+  background: #407bff;
+}
+.headerBtn .signinBtn a:hover {
+  outline: 1px solid #000 !important;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+.logo span {
+  color: #407bff;
+}
+.dotsImgSec {
+  position: absolute;
+  width: 300px;
+  height: 264px;
+}
+.dotsImg {
+  position: absolute;
+  right: 1rem;
+  top: 9rem;
+  z-index: -1;
+}
+
+.section1 {
+  padding: 4rem 0;
+}
+.mainHead {
+  z-index: -3;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.section1Descp {
+  margin-bottom: 30px;
+}
+.section1Descp p,
+.section1Btn {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+.section1Descp p {
+  display: block;
+  width: 27rem;
+}
+.section1Descp p a {
+  text-decoration: none;
+  background: rgba(64, 123, 255, 0.07);
+}
+
+.section1Btn a,
+.pricePlanBtn a,
+.sendMsgBtn {
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+.pricingtn {
+  outline: 1px solid #407bff;
+  color: #407bff;
+}
+.pricingtn:hover {
+  background: #407bff;
+  color: #ffffff;
+}
+.section2 img {
+  max-width: 100%;
+  height: auto;
+}
+.heroSection1,
+.heroSection2,
+.heroSection3,
+.heroSection4,
+.heroSection5,
+.heroSection6,
+.heroSection7,
+.heroSection8,
+.heroSection9,
+.heroSection10 {
+  padding: 6.25rem 0;
+  position: relative;
+}
+.digitalSrvc,
+.testimonials,
+.about {
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 13px;
+  color: #407bff;
+}
+.sellSrvc,
+.customerFeedback,
+.aboutUs {
+  color: #000000;
+  font-size: 38px;
+}
+.sellSrvcChck,
+.aboutUsChck {
+  padding-left: 0;
+}
+.sellSrvcChck li,
+.aboutUsChck li {
+  position: relative !important;
+  padding-left: 30px !important;
+  margin-bottom: 10px !important;
+  list-style: none;
+}
+.sellSrvcChck li::before,
+.pricingList li::before,
+.aboutUsChck li::before {
+  color: #407bff;
+  position: absolute;
+  left: 0;
+  top: -0.2rem;
+  content: "\2713";
+  font-size: 20px;
+  font-family: "icomoon";
+}
+blockquote {
+  font-style: italic;
+  color: #000000;
+}
+.quoteAuthor {
+  font-size: 14px;
+}
+.authorPic {
+  flex: 0 0 50px;
+  margin-right: 0.75rem;
+}
+.authorPic img,
+.newsCardProfile img {
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.authorName {
+  font-weight: 400 !important;
+  color: #000000;
+}
+.videoBtn {
+  display: block;
+  position: relative;
+}
+.videoBtn::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s all ease;
+}
+.playIcon,
+.countIcon {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
+}
+.countIcon {
+  background: #407bff;
+  top: 85%;
+  box-shadow: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 50px;
+}
+.playIcon > svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dashboardImg {
+  max-width: 100%;
+  height: auto;
+  border: 10px solid #ffffff;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+}
+.sec2,
+.sec3,
+.sec8 {
+  background: #f8f9fa;
+}
+
+.sec10 {
+  background-color: #efefef;
+}
+.slider {
+  border: 10px solid #ffffff;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+}
+.featuresDiv {
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+.featuresDiv:hover {
+  background-color: #ffffff;
+  border-right: 4px solid #407bff;
+}
+
+.featuresIcon > svg {
+  position: absolute;
+  top: 26%;
+  left: 27%;
+}
+.featuresContent {
+  color: #939393;
+}
+.featuresContent h3 {
+  font-size: 18px;
+  color: #000000;
+}
+.featuresIconColor1,
+.brandServicesColor1,
+.advantageColor1 {
+  background-color: #6fe7dd;
+  box-shadow: 0 2px 10px 0 rgba(111, 231, 221, 0.3);
+}
+.featuresIconColor2,
+.brandServicesColor2,
+.advantageColor2 {
+  background-color: #ffc93c;
+  box-shadow: 0 2px 10px 0 rgba(255, 201, 60, 0.3);
+}
+.featuresIconColor3,
+.brandServicesColor3,
+.advantageColor3 {
+  background-color: #f73859;
+  box-shadow: 0 2px 10px 0 rgba(247, 56, 89, 0.3);
+}
+.featuresIconColor4,
+.brandServicesColor4,
+.advantageColor4 {
+  background-color: #407bff;
+  box-shadow: 0 2px 10px 0 rgba(64, 123, 255, 0.3);
+}
+.featuresIcon,
+.brandServicesIcon,
+.advantageIcon {
+  margin-right: 30px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 30%;
+  position: relative;
+  color: #ffffff;
+}
+.featuresIcon {
+  flex-basis: auto;
+}
+
+.advantageIcon {
+  width: 65px;
+  height: 40px;
+}
+
+.brandServicesIcon > svg,
+.advantageIcon > svg {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.brandServicesIcon {
+  margin-right: 0px;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+
+.brandServicesContents h3,
+.advantageContents h3 {
+  color: #000000;
+  font-size: 18px;
+}
+
+.brandServicesContents p {
+  width: 12rem;
+}
+.pricingHead h2,
+.advantageHead h2,
+.newsHead h2,
+.contactHead h2 {
+  font-size: 38px;
+  color: #000000;
+}
+.pricingHead,
+.advantageHead,
+.newsHead,
+.contactHead {
+  margin-bottom: 2.5rem;
+}
+
+.pricingCardBody {
+  padding: 25px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 40px;
+}
+.pricePlan {
+  font-size: 30px;
+  color: #000000;
+}
+.amountDetail,
+.membersCount {
+  font-size: 40px;
+  color: #407bff;
+}
+.membersCount {
+  color: #000000;
+}
+.amountDetail sup {
+  font-size: 20px;
+  top: -15px;
+}
+.pricingList {
+  list-style-type: none;
+  width: 13rem;
+}
+.pricingList li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.learnMore {
+  font-size: 13px;
+  display: inline-block;
+  position: relative;
+  color: #407bff;
+  text-decoration: none;
+}
+.highlight {
+  background-color: #eff6ff;
+}
+.customerBtn span {
+  position: absolute;
+  top: 2%;
+  left: 20%;
+}
+.customerBtn {
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: rgb(204, 204, 204);
+  color: #ffffff;
+  border-radius: 4px;
+}
+.customerBtn:hover {
+  background-color: #407bff;
+}
+.carousel-indicators > button {
+  height: 0.6em !important;
+  width: 0.6em !important;
+  border-radius: 50%;
+  background-color: #407bff !important;
+}
+.membersText {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.newsCard {
+  border: none;
+  border-radius: 0px !important;
+  width: 22rem;
+  position: relative;
+  transition: 0.3s all ease;
+}
+.newsCard:hover {
+  transform: translateY(-5px);
+}
+.newsCardBody {
+  padding: 1.875rem;
+}
+.newsCardProfile {
+  margin-right: 20px;
+}
+.newsCardTitle {
+  line-height: 1.4;
+}
+.newsCardTitle strong {
+  color: #000000;
+  font-weight: 700;
+}
+.newsCardTitle span {
+  color: #c6c6c6;
+}
+.newsContent span {
+  margin-bottom: 1.25rem;
+  font-size: 13px;
+  color: #c6c6c6;
+}
+.newsContent h3 {
+  line-height: 1.2;
+}
+.newsContent h3 a:hover {
+  color: #407bff;
+}
+.newsContent h3 a {
+  color: #000000;
+  text-decoration: none;
+  width: 17rem !important;
+}
+.readMoreIcon {
+  position: relative;
+  z-index: 2;
+}
+.readMoreIcon svg {
+  position: relative;
+  left: 0;
+  z-index: 2;
+  font-size: 30px;
+  color: #000000;
+}
+.formDiv {
+  margin-bottom: 1rem;
+}
+.contactInputField {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #43434d;
+  padding: 1px 0px;
+  height: 45px;
+  color: #000000;
+}
+textarea {
+  height: auto !important;
+}
+.aboutLaunchHead,
+.productHead {
+  margin-bottom: 2.5rem;
+}
+.aboutLaunchHead h3,
+.productHead h3 {
+  color: #000000;
+  margin-bottom: 1.875rem;
+  font-size: 16px;
+}
+.contactIcons img,
+.contactIcons i {
+  width: 17px !important;
+  height: 17px !important;
+  margin-right: 0.5rem;
+  margin-top: -0.25rem;
+}
+.contactDetails,
+.connectDetails,
+.projectsDetails {
+  list-style: none;
+  padding-left: 0px;
+}
+.contactDetails a,
+.connectIcons a {
+  text-decoration: none;
+}
+.contactDetails li {
+  margin-bottom: 10px;
+}
+.contactDetails li a:hover {
+  color: #407bff !important;
+}
+
+.connectIcons {
+  border-radius: 50%;
+  background-color: #777;
+}
+.connectIcons:hover {
+  background-color: #739eff;
+}
+.connectDetails li {
+  padding-right: 0.35rem !important;
+}
+.connectIcons i {
+  width: 14px !important;
+  height: 14px !important;
+  margin: 0.5rem;
+}
+.projectsCol {
+  margin-left: auto !important;
+}
+
+.projectsDetails {
+  width: 9.4rem;
+}
+.projectsDetails li {
+  margin-bottom: 10px;
+}
+.projectsDetails li a {
+  text-decoration: none;
+  color: #777;
+}
+
+.navbar-nav li a.active {
+  color: #407bff !important;
+}
+
+@media only screen and (max-width: 767px) {
+  header .container {
+    margin: 0px !important;
+  }
+  header .heroSection {
+    width: 100%;
+  }
+  .headerBtn {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .headerBtn li {
+    display: block !important;
+    margin-left: -5rem !important;
+  }
+  .registerBtn {
+    padding-top: 2rem !important;
+  }
+  .navbar-collapse {
+    margin-left: 8rem;
+    height: 28rem;
+  }
+
+  .mainHead {
+    text-align: center;
+    font-size: 50px;
+  }
+  .section1Btn {
+    text-align: center;
+  }
+  .coheroSec1 .row {
+    margin-top: 0px !important;
+  }
+  .videoTag {
+    margin-left: 0px !important;
+  }
+  .brandServicesContents p {
+    width: auto !important;
+  }
+  .coHeroSec4 {
+    width: 100%;
+  }
+  .pricingCard {
+    margin-top: 3rem !important;
+  }
+  .pricingList li {
+    max-width: 24rem;
+  }
+  .advantageIcon {
+    width: 100px;
+  }
+  .dotsImg {
+    right: -13rem;
+    top: 34rem;
+  }
+  .dotsImg img {
+    width: 40%;
+  }
+
+  .customerCare {
+    text-align: center !important;
+  }
+  .ourNewsHead,
+  .getInTch,
+  .sellSrvc {
+    font-size: 28px !important;
+  }
+
+  .advantageHead h2 {
+    font-size: 26px !important;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .countIcon {
+    top: 75%;
+  }
+}
