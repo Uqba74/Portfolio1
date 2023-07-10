@@ -699,18 +699,13 @@ textarea {
   .countIcon {
     top: 75%;
   }
-  .heroSection,
-  .coheroSec1,
-  .coHeroSec2,
-  .coHeroSec3,
-  .coHeroSec4,
-  .coHeroSec5,
-  .coHeroSec6,
-  .coHeroSec7,
-  .coHeroSec8,
-  .coHeroSec9,
-  .coheroSec10 {
-    width: 100% !important;
-    margin: 0px !important;
+  .featuresIcon {
+    position: absolute !important;
+  }
+  .featuresContent {
+    padding-left: 55px;
+  }
+  .featuresContent p {
+    width: auto !important;
   }
 }
