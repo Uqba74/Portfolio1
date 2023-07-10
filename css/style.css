@@ -17,10 +17,6 @@ body {
   padding-top: 0;
   box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.1);
 }
-
-/* .navbar-toggler {
-  z-index: 999 !important;
-} */
 .heroSection,
 .coheroSec1,
 .coHeroSec2,
@@ -677,9 +673,6 @@ textarea {
     top: 37rem !important;
     width: 25%;
   }
-  /* .dotsImg img {
-    width: 40%;
-  } */
 
   .customerCare {
     text-align: center !important;
