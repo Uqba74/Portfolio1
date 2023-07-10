@@ -39,3 +39,30 @@ window.addEventListener("scroll", function () {
     }
   });
 });
+
+window.addEventListener("load", function () {
+  var team = 0;
+  var member = 0;
+  var memberHead = document.getElementById("memCount");
+  var teamsHead = document.getElementById("teamCount");
+
+  var interval1, interval2;
+
+  function teamTimer() {
+    team++;
+    teamsHead.innerHTML = team;
+  }
+  function memberTimer() {
+    member++;
+    memberHead.innerHTML = member;
+  }
+
+  interval1 = setInterval(teamTimer, 100);
+  interval2 = setInterval(memberTimer, 20);
+  setTimeout(function () {
+    clearInterval(interval1);
+  }, 1400);
+  setTimeout(function () {
+    clearInterval(interval2);
+  }, 1180);
+});
