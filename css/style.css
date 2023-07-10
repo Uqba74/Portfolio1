@@ -18,9 +18,9 @@ body {
   box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-toggler {
+/* .navbar-toggler {
   z-index: 999 !important;
-}
+} */
 .heroSection,
 .coheroSec1,
 .coHeroSec2,
@@ -641,7 +641,7 @@ textarea {
     padding-top: 2rem !important;
   }
   .navbar-collapse {
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
     height: 28rem;
   }
 
@@ -674,12 +674,12 @@ textarea {
     width: 100px;
   }
   .dotsImg {
-    right: -13rem;
-    top: 34rem;
+    top: 37rem !important;
+    width: 25%;
   }
-  .dotsImg img {
+  /* .dotsImg img {
     width: 40%;
-  }
+  } */
 
   .customerCare {
     text-align: center !important;
@@ -703,9 +703,12 @@ textarea {
     position: absolute !important;
   }
   .featuresContent {
-    padding-left: 55px;
+    padding-left: 55px !important;
   }
   .featuresContent p {
+    width: auto !important;
+  }
+  .sec1DescpPara {
     width: auto !important;
   }
 }
